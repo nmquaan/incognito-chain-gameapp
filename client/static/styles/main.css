@@ -1,0 +1,28 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: inherit;
+  width: inherit;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+@font-face {
+	font-family: "Lightmorning";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../assets/fonts/Lightmorning.TTF");
+}
+
+@font-face {
+	font-family: "iCiel Rukola";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../assets/fonts/iCielRukola.ttf");
+}

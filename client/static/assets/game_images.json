@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "game_images.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 466,
+				"h": 689
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "img_logo.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 428
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 22,
+						"w": 464,
+						"h": 399
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 464,
+						"h": 399
+					}
+				},
+				{
+					"filename": "btn_node_normal.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 13,
+						"w": 233,
+						"h": 233
+					},
+					"frame": {
+						"x": 1,
+						"y": 402,
+						"w": 233,
+						"h": 233
+					}
+				},
+				{
+					"filename": "btn_node_selected.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 16,
+						"w": 224,
+						"h": 224
+					},
+					"frame": {
+						"x": 236,
+						"y": 402,
+						"w": 224,
+						"h": 224
+					}
+				},
+				{
+					"filename": "panel_0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 60
+					},
+					"frame": {
+						"x": 236,
+						"y": 628,
+						"w": 85,
+						"h": 60
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:606fdffe63b686c79f374c601172b908:3a0ae5aed03f27f789178ecb4045c51b:f340b7fc27bc9d49fe0ea88bebaf4a71$"
+	}
+}

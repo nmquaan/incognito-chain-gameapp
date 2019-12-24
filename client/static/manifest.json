@@ -1,0 +1,10 @@
+{
+  "name": "Your Game",
+  "short_name": "Your Game",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "instant_games": {
+    "platform_version" : "RICH_GAMEPLAY"
+  }
+}
