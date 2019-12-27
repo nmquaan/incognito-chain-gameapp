@@ -181,6 +181,21 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
+            <key type="filename">border.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>55,63,110,126</rect>
+                <key>scale9Paddings</key>
+                <rect>55,63,110,126</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">btn_node_normal.png</key>
             <key type="filename">btn_node_selected.png</key>
             <struct type="IndividualSpriteSettings">
@@ -194,6 +209,55 @@
                 <rect>63,63,125,125</rect>
                 <key>scale9Paddings</key>
                 <rect>63,63,125,125</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">coin.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>25,25,50,50</rect>
+                <key>scale9Paddings</key>
+                <rect>25,25,50,50</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">dice_0.png</key>
+            <key type="filename">dice_2.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>63,69,125,137</rect>
+                <key>scale9Paddings</key>
+                <rect>63,69,125,137</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">dice_1.png</key>
+            <key type="filename">dice_3.png</key>
+            <key type="filename">dice_4.png</key>
+            <key type="filename">dice_5.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>63,68,125,137</rect>
+                <key>scale9Paddings</key>
+                <rect>63,68,125,137</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -212,6 +276,26 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">item_0.png</key>
+            <key type="filename">item_1.png</key>
+            <key type="filename">item_2.png</key>
+            <key type="filename">item_3.png</key>
+            <key type="filename">item_4.png</key>
+            <key type="filename">item_5.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>35,35,70,70</rect>
+                <key>scale9Paddings</key>
+                <rect>35,35,70,70</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">panel_0.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -227,6 +311,21 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">plate.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>163,99,325,197</rect>
+                <key>scale9Paddings</key>
+                <rect>163,99,325,197</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
         </map>
         <key>fileList</key>
         <array>
@@ -237,7 +336,9 @@
         <key>replaceList</key>
         <array/>
         <key>ignoredWarnings</key>
-        <array/>
+        <array>
+            <string>phaser3-exporter-beta</string>
+        </array>
         <key>commonDivisorX</key>
         <uint>1</uint>
         <key>commonDivisorY</key>
