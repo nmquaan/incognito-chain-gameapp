@@ -1,13 +1,13 @@
+import 'phaser'
 import Boot from './states/Boot'
 import Preload from './states/Preload'
-import Tutorial from './states/Tutorial'
 import HomeScene from './states/HomeScene'
 import MainScene from './states/MainScene'
-import EndGame from './states/EndGame'
 import { Plugin as NineSlicePlugin } from 'phaser3-nineslice'
 import GameData from './data/GameData'
-import rexButton from './plugins/button.js';
-import ButtonPlugin from './plugins/button-plugin.js';
+import rexButton from './plugins/button.js'
+import ButtonPlugin from './plugins/button-plugin.js'
+import ShakePlugin from './plugins/shakeposition-plugin.js'
 
 class Game extends Phaser.Game {
 
@@ -28,7 +28,7 @@ class Game extends Phaser.Game {
 				width: 720,
 				height: 1280
 			},
-			scene: [Boot, Preload, Tutorial, HomeScene, MainScene, EndGame],
+			scene: [Boot, Preload, HomeScene, MainScene],
 			backgroundColor: "#ffffff",
 			plugins: {
 				global: [
@@ -36,6 +36,11 @@ class Game extends Phaser.Game {
 					{
 						key: 'rexButton',
 						plugin: ButtonPlugin,
+						start: true
+					},
+					{
+						key: 'rexShake',
+						plugin: ShakePlugin,
 						start: true
 					}
 				],

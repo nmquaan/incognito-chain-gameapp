@@ -10,6 +10,7 @@ export default class Preload extends Phaser.Scene {
 		this.load.image('back_gameplay', 'assets/back_gameplay.jpg');
 		this.load.image('back_profile', 'assets/back_profile.jpg');
 		this.load.multiatlas('game_images', 'assets/game_images.json', 'assets');
+		GameData.init();
 	}
 
 	create() {

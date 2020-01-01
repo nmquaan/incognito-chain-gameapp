@@ -181,6 +181,40 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
+            <key type="filename">bet_1.png</key>
+            <key type="filename">bet_10.png</key>
+            <key type="filename">bet_25.png</key>
+            <key type="filename">bet_5.png</key>
+            <key type="filename">bet_50.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>60,60,119,119</rect>
+                <key>scale9Paddings</key>
+                <rect>60,60,119,119</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">bet_100.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>20,20,40,40</rect>
+                <key>scale9Paddings</key>
+                <rect>20,20,40,40</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">border.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -193,6 +227,21 @@
                 <rect>55,63,110,126</rect>
                 <key>scale9Paddings</key>
                 <rect>55,63,110,126</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">bowl.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>138,98,277,196</rect>
+                <key>scale9Paddings</key>
+                <rect>138,98,277,196</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -227,6 +276,21 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">default.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>13,13,25,25</rect>
+                <key>scale9Paddings</key>
+                <rect>13,13,25,25</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">dice_0.png</key>
             <key type="filename">dice_2.png</key>
             <struct type="IndividualSpriteSettings">
@@ -258,6 +322,26 @@
                 <rect>63,68,125,137</rect>
                 <key>scale9Paddings</key>
                 <rect>63,68,125,137</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">icon_1.png</key>
+            <key type="filename">icon_10.png</key>
+            <key type="filename">icon_100.png</key>
+            <key type="filename">icon_25.png</key>
+            <key type="filename">icon_5.png</key>
+            <key type="filename">icon_50.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>50,50,100,100</rect>
+                <key>scale9Paddings</key>
+                <rect>50,50,100,100</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
